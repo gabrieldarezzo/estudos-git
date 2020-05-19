@@ -1,8 +1,13 @@
 # Estudos sobre o Git
 
 
+## O que é git
+O Git é um sistema de controle de revisão distribuído rápido, escalável e com um conjunto de comandos incomumente rico que fornece operações de alto nível e acesso total aos internos.
+
+
 ## Entender o conceito do git
-Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals.
+
 
 ## Diferenças entre Git e SVN
-# estudos-git
+
+
