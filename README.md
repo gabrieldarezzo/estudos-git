@@ -28,8 +28,9 @@ Criado pelo Vincent Driessen,
 
 Cada alteração é feita via branch, seja HotFix/BugFix, novas funcionalides, ou até mesmo versões novas (diversas funcionalidades) tentando sempre manter a `master` atualizada e mantendo ciclos de deploy constante.  
 
-**Prós:** Simples, Controle  
-**Problemas:** Equipes muito grandes podem gerar conflitos na master, e descobrir que o merge não estão tão certo assim (e já está na master)   
+**Prós:** Simples, Controle
+
+**Problemas:** Equipes muito grandes podem gerar conflitos na master, não recomendado  o projeto não possua testes automatizados e processos de deploy, pois descobrir que o merge efetuado na master está bugado vai ser triste.
 ![Hehe](docs/hehe.jpeg)  
 
 
@@ -39,16 +40,16 @@ Uma versão sem simplificada do Git-Flow, onde possui um bugfix
 
 **Prós:** Simples, Controle  
 **Problemas:** Equipes muito grandes podem gerar conflitos na master, e descobrir que o merge não estão tão certo assim (e já está na master)   
-![Hehe](docs/hehe.jpeg)  
-
-
-
-
 
 
 
 
 ## Referência
+
+https://git-scm.com/book/en/v2  
+https://git-scm.com/docs/gittutorial  
+https://git-scm.com/docs/giteveryday  
+
 
 Entendendo GIT | (não é um tutorial!):  
 https://www.youtube.com/watch?v=6Czd1Yetaac  
@@ -57,3 +58,4 @@ Git - git flow na prática:
 https://www.youtube.com/watch?v=wzxBR4pOTTs  
 
 https://semver.org/  
+
