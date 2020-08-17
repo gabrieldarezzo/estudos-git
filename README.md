@@ -117,28 +117,58 @@ git branch -D feature/delete-user
 
 
 ## Comandos uteis que sao desconhecidos 
-
+...
 
 
 ## O que é commit?
 Um Commit é um pacote de alterações feitas no repositório.
 Uma especie de PATH que é efetuada no código.
-
-## O que é uma branch? 
-
-
+Exemplo de um commit: 
+![image](https://user-images.githubusercontent.com/4562368/90351051-6a440880-e015-11ea-9074-da50ec2b545a.png)
 
 
+## O que é uma branch / Ramificação ? 
+Ramificação no git é um ponteiro para as alterações feitas nos arquivos do projeto.
+É útil em situações nas quais você deseja adicionar um novo recurso ou corrigir um erro, gerando uma nova ramificação garantindo que o código instável (inacabado) não seja mesclado nos arquivos do projeto principal. Depois de concluir a atualização dos códigos da ramificação, você pode mesclar (`merge`) a ramificação com a principal, geralmente chamada de `master`.
 
 
 ## Porque é necessário fazer o merge de uma branch no master?
+Caso você tenha optador por criar uma branch.
+E você densevolveu na branch: `feature/delete-user` após finalizar as alterações necessarias no código, você pode efetuar uma `merge` na `master` (mesclagem) garantindo assim que todos os commits entrem corretamente.
 
+## Porque é importante usar boas mensagens em um commit?
+Independente da pressa, preguiça ou até mesmo pressão.
+Boas mensagens de commits podem ser uma documentação futura alem de trazer mais contexto pra quem revisa o código.
 
+O commit possui dois parametros, exemplo:
 
+```bash
+git commit -m "Title" -m "Description"
+```
 
+### Exemplo ruim
+```
+First commit :hammer:
+```
 
+### Exemplo bom
+```
+Microserviço que exibe manipula informações pessoais do usuário.
 
+Utilizado:
+Laravel 5.7
+Mysql 5.5.27
+```
 
+### Exemplo ruim
+```
+Remover regra do user.
+```
+
+### Exemplo bom
+```
+Ao atualizar o endereço na tela 'User' não verifica se 'user.active' para atualziar endereço cadastrado
+```
 
 
 ## Referência
@@ -146,10 +176,11 @@ Uma especie de PATH que é efetuada no código.
 https://git-scm.com/book/en/v2  
 https://git-scm.com/docs/gittutorial  
 https://git-scm.com/docs/giteveryday  
-
-
+https://receitasdecodigo.com.br/devops/git-o-que-e-um-branch
 Entendendo GIT | (não é um tutorial!):  
 https://www.youtube.com/watch?v=6Czd1Yetaac  
+
+https://josiaspereira.com.br/como-escrever-uma-boa-mensagem-de-commit-no-git/
 
 Git - git flow na prática:  
 https://www.youtube.com/watch?v=wzxBR4pOTTs  
