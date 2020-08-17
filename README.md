@@ -42,6 +42,103 @@ Uma versão sem simplificada do Git-Flow, onde possui um bugfix
 **Problemas:** Equipes muito grandes podem gerar conflitos na master, e descobrir que o merge não estão tão certo assim (e já está na master)   
 
 
+## Comandos mais utilizados no dia a dia  
+
+
+
+
+
+Efetua um clone (cria uma pasta na sua máquina com todos os arquivos que estão no servidor).
+```bash
+git clone https://github.com/gabrieldarezzo/estudos-git.git
+```
+
+
+Lista todos os arquivos que foram alterados.
+```bash
+git stash
+```
+
+Exibe as modificações do arquivo `README.md` de um arquivo especifico.
+```bash
+git diff README.md
+```
+
+Envia todos os arquivos para o stage.
+```bash
+git add .
+```
+
+Remove todos os arquivos que estão stage.
+```bash
+git reset 
+```
+
+Efetuar o commit das alterações que estão no stage.
+```bash
+git commit -m"Update variable STORE_PASS in .example.env" 
+```
+
+Envia para o repositório/servidor os commits efetuados.
+```bash
+git push
+```
+
+Exibe todos os commits em ordem decrescente.
+```bash
+git log
+```
+
+Puxa toda as alterações que estão no repositório.
+```bash
+git pull
+```
+
+
+Informa a branch atual com um (*), e lista todas que estão na sua maquina (repositório local).
+```bash
+git branch 
+```
+
+Limpa/Exclui todos as alterações efetuadas nos arquivos já existentes, alterando para o estado inicial da branch atual.
+```bash
+git checkout .
+```
+
+Cria uma branch (por default a partir da master), e aponta para ela.
+```bash
+git checkout -b feature/delete-user
+```
+
+Exclui uma branch local.
+```bash
+git branch -D feature/delete-user
+```
+
+
+## Comandos uteis que sao desconhecidos 
+
+
+
+## O que é commit?
+Um Commit é um pacote de alterações feitas no repositório.
+Uma especie de PATH que é efetuada no código.
+
+## O que é uma branch? 
+
+
+
+
+
+
+## Porque é necessário fazer o merge de uma branch no master?
+
+
+
+
+
+
+
 
 
 ## Referência
