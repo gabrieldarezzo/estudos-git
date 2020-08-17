@@ -109,14 +109,32 @@ Cria uma branch (por default a partir da master), e aponta para ela.
 git checkout -b feature/delete-user
 ```
 
-Exclui uma branch local.
+Exclui uma branch local. (Não pode estar na mesma branch no ato da exclusão)
 ```bash
 git branch -D feature/delete-user
 ```
 
 
+Exclui uma branch remota.
+```bash
+git push origin --delete feature/delete-user
+```
+
+
+
 ## Comandos uteis que sao desconhecidos 
 ...
+
+
+## O que é um Rebase
+...
+## O que é um Revert
+...
+## Rebase/Revert, quais as diferenças?
+...
+
+
+
 
 
 ## O que é commit?
