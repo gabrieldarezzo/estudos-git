@@ -56,15 +56,15 @@ git clone https://github.com/gabrieldarezzo/estudos-git.git
 
 Lista todos os arquivos que foram alterados.
 ```bash
-git stash
+git status
 ```
 
-Exibe as modificações do arquivo `README.md` de um arquivo especifico.
+Exibe as modificações de um arquivo especifico, no caso do exemplo abaixo o `README.md`
 ```bash
 git diff README.md
 ```
 
-Envia todos os arquivos para o stage.
+Envia todos os arquivos modificados para o stage.
 ```bash
 git add .
 ```
@@ -79,7 +79,7 @@ Efetuar o commit das alterações que estão no stage.
 git commit -m"Update variable STORE_PASS in .example.env" 
 ```
 
-Envia para o repositório/servidor os commits efetuados.
+Envia para o repositório remoto os commits efetuados.
 ```bash
 git push
 ```
@@ -89,11 +89,10 @@ Exibe todos os commits em ordem decrescente.
 git log
 ```
 
-Puxa toda as alterações que estão no repositório.
+Puxa toda as alterações que estão no repositório remoto.
 ```bash
 git pull
 ```
-
 
 Informa a branch atual com um (*), e lista todas que estão na sua maquina (repositório local).
 ```bash
@@ -179,7 +178,6 @@ https://git-scm.com/docs/giteveryday
 https://receitasdecodigo.com.br/devops/git-o-que-e-um-branch
 Entendendo GIT | (não é um tutorial!):  
 https://www.youtube.com/watch?v=6Czd1Yetaac  
-
 https://josiaspereira.com.br/como-escrever-uma-boa-mensagem-de-commit-no-git/
 
 Git - git flow na prática:  
