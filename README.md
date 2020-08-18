@@ -121,8 +121,14 @@ git push origin --delete feature/delete-user
 ```
 
 
+Acessar a branch master, e efetuar o merge utilizando squash
+```bash
+git checkout master 
+git merge --squash feature/delete-user
+```
 
-## Comandos uteis que sao desconhecidos 
+
+## Comandos úteis que sao desconhecidos 
 ...
 
 
@@ -170,7 +176,7 @@ First commit :hammer:
 
 ### Exemplo bom
 ```
-Microserviço que exibe manipula informações pessoais do usuário.
+Microserviço que exibe e manipula informações pessoais do usuário.
 
 Utilizado:
 Laravel 5.7
@@ -184,7 +190,7 @@ Remover regra do user.
 
 ### Exemplo bom
 ```
-Ao atualizar o endereço na tela 'User' não verifica se 'user.active' para atualziar endereço cadastrado
+Ao atualizar o endereço na tela 'User' não verifica se 'user.active' para atualizar endereço cadastrado
 ```
 
 
