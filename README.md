@@ -125,8 +125,23 @@ Acessar a branch master, e efetuar o merge utilizando squash
 ```bash
 git checkout master 
 git merge --squash feature/delete-user
+```  
+
+
+Jogar os arquivos em uma branch temporaria
+```bash
+git stash
 ```
 
+Recuperar os arquivos desta branch
+```bash
+git stash pop
+```
+
+Remover TODOS os arquivos desta branch temporaria
+```bash
+git stash clear
+```
 
 ## Comandos úteis que sao desconhecidos 
 ...
@@ -190,7 +205,7 @@ Remover regra do user.
 
 ### Exemplo bom
 ```
-Ao atualizar o endereço na tela 'User' não verifica se 'user.active' para atualizar endereço cadastrado
+Ao atualizar o endereço na tela 'User' não verificava se 'user.active' para atualizar endereço cadastrado
 ```
 
 
