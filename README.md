@@ -149,8 +149,21 @@ git stash clear
 
 ## O que é um Rebase
 ...
-## O que é um Revert
-...
+## O que é um Revert  
+O comando git revert é uma operação de desfazer avançada que oferece um método seguro de desfazer alterações.
+Em vez de excluir ou tornar commits órfãos no histórico de commits, uma reversão vai criar um commit novo que inverte as alterações especificadas.  
+
+
+Como aplicar um revert em um commit especifico:   
+```bash
+git revert dd8d6f587fa24327d5f5afd6fa8c3e604189c8d4>
+```
+
+Como aplicar um revert no merge efetuado:   
+```bash
+git revert -m 1 dd8d6f587fa24327d5f5afd6fa8c3e604189c8d4>
+```
+
 ## Rebase/Revert, quais as diferenças?
 ...
 
